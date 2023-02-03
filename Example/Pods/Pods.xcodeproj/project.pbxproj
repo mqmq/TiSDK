@@ -1,0 +1,811 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		393456269AAD4FD4C2DF1B2DAF7376C7 /* Pods-ZQQTiSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 38AACB4283282610FA691BB956351321 /* Pods-ZQQTiSDK_Tests-dummy.m */; };
+		3B7F002BCEFFA8FA78856C4CD1B07360 /* Pods-ZQQTiSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1385345AD38CA224735704EF4F651085 /* Pods-ZQQTiSDK_Example-dummy.m */; };
+		47A8442285F6A973150819D77601576B /* Pods-ZQQTiSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D47283EF7FE853332B7338205C55ACA /* Pods-ZQQTiSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8296AB97177219515405288328B5486B /* ZQQTiSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B64F1228D6F8512F3959A1AC8059D0F /* ZQQTiSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		837BE6C894F4491AACDD75F431BBD98D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C0B4B1B27EAA98FD4EB1625D94710711 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C54D93DFF44EA245CDC8DCCFC2E4BF32 /* Pods-ZQQTiSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B9C5651B43ECAB9A2D372DE6C6B1465 /* Pods-ZQQTiSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D1BADBF3B49CF658C1BA46CC91CB245C /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = FFA5AE18322E16210BB67DF43EE215B0 /* ReplaceMe.m */; };
+		D7005240B06D907F9C288AD55D414FA9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		F3BA59814E4DB118C06BDFDE70680465 /* ZQQTiSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F941070C7842EAA685C131EE8000A46 /* ZQQTiSDK-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7087C685E71C947633A3A8EFBBC86AA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FFDCEBEB62DBA08704BA309852B2202;
+			remoteInfo = "Pods-ZQQTiSDK_Example";
+		};
+		D87E25CB8A3501987ABE60B976AA34F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96BCF23ACC69911A8AED90F03FD7F89F;
+			remoteInfo = ZQQTiSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B8F6638CF4712ACAACFF40BA2590C7B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		0F92F96228BC93F0DD1C80B8A503EC8E /* Pods-ZQQTiSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZQQTiSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1385345AD38CA224735704EF4F651085 /* Pods-ZQQTiSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZQQTiSDK_Example-dummy.m"; sourceTree = "<group>"; };
+		1CAE58B6ADB1A768101B97409B0A2801 /* Pods-ZQQTiSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZQQTiSDK_Example-Info.plist"; sourceTree = "<group>"; };
+		23FBB429976E371FFAB98DEE6114F98A /* Pods-ZQQTiSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZQQTiSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		24B0E4AD035AAB3631096B7198EBC167 /* ZQQTiSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZQQTiSDK.debug.xcconfig; sourceTree = "<group>"; };
+		38AACB4283282610FA691BB956351321 /* Pods-ZQQTiSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZQQTiSDK_Tests-dummy.m"; sourceTree = "<group>"; };
+		3B494F1357C9007ACA6A976E3A851C02 /* ZQQTiSDK */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZQQTiSDK; path = ZQQTiSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F02EE88FF09B9648B5A36AA2EB799E2 /* Pods-ZQQTiSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZQQTiSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
+		3F941070C7842EAA685C131EE8000A46 /* ZQQTiSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZQQTiSDK-dummy.m"; sourceTree = "<group>"; };
+		441A540B8FE1D4E17002A7E35D945327 /* Pods-ZQQTiSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZQQTiSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		448DF075B6EA439CB3F77D9FD770720A /* Pods-ZQQTiSDK_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ZQQTiSDK_Tests"; path = Pods_ZQQTiSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D08D9BD871A0118E18DB85533E3DB5A /* Pods-ZQQTiSDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZQQTiSDK_Tests-Info.plist"; sourceTree = "<group>"; };
+		6B9C5651B43ECAB9A2D372DE6C6B1465 /* Pods-ZQQTiSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZQQTiSDK_Example-umbrella.h"; sourceTree = "<group>"; };
+		7167B9DE7E2EE8ECFD52CA7C3B622870 /* ZQQTiSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZQQTiSDK.modulemap; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		770946812421521D5ACC11F2BB9E78A0 /* Pods-ZQQTiSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZQQTiSDK_Tests.modulemap"; sourceTree = "<group>"; };
+		799E301D298D00C300C36FDC /* ZQTe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ZQTe.m; path = ZQQTiSDK/Classes/ZQTe.m; sourceTree = "<group>"; };
+		799E301E298D00C300C36FDC /* ZQTe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ZQTe.h; path = ZQQTiSDK/Classes/ZQTe.h; sourceTree = "<group>"; };
+		7D47283EF7FE853332B7338205C55ACA /* Pods-ZQQTiSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZQQTiSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
+		8B64F1228D6F8512F3959A1AC8059D0F /* ZQQTiSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZQQTiSDK-umbrella.h"; sourceTree = "<group>"; };
+		8CAD218AA874C861D649C472E7A53686 /* Pods-ZQQTiSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZQQTiSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9CA2564192DECCD3DCAFBA012211873F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E66905E6AA5329A45C1C72E8E8D6631 /* Pods-ZQQTiSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZQQTiSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
+		A254AB18BE61375E472F597456A8C531 /* Pods_ZQQTiSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZQQTiSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3063B1DF0C41E61F319F769C0D2FA48 /* ZQQTiSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZQQTiSDK-prefix.pch"; sourceTree = "<group>"; };
+		CB2EFD64E0F2103E103B5A020045CED7 /* Pods-ZQQTiSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZQQTiSDK_Example.modulemap"; sourceTree = "<group>"; };
+		D6FE32A34BE7C7C0A31693AA25C0877C /* ZQQTiSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZQQTiSDK-Info.plist"; sourceTree = "<group>"; };
+		E1E752E863ABBED591570EFDEB903419 /* ZQQTiSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ZQQTiSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ECBA1788A646CE7C51CD5D9638D821BA /* ZQQTiSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZQQTiSDK.release.xcconfig; sourceTree = "<group>"; };
+		EF4F7E47C399B390E5872426FDDED2E6 /* Pods-ZQQTiSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZQQTiSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F133ECD98F220BD9A1CE46D9A4B9DE16 /* Pods-ZQQTiSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZQQTiSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		FEF660121C0EAAC6BAF4844A0E47507F /* Pods-ZQQTiSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZQQTiSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		FFA5AE18322E16210BB67DF43EE215B0 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = ZQQTiSDK/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2AB6FDF9DAEE696FFE334682BE11FF5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				837BE6C894F4491AACDD75F431BBD98D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACA35A31DB6A5A3ECEB1ABD1464E4E5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7005240B06D907F9C288AD55D414FA9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2BEE7AF5AD5F3A584FE7BC374B3DA0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0B4B1B27EAA98FD4EB1625D94710711 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BFBF86199B597C0310332E416FF58A3 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				87F504EE56E389ACA538FD4079D8FD76 /* ZQQTiSDK */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		170F9D3AC86B8279A560E35F53FB5DF1 /* Pods-ZQQTiSDK_Example */ = {
+			isa = PBXGroup;
+			children = (
+				CB2EFD64E0F2103E103B5A020045CED7 /* Pods-ZQQTiSDK_Example.modulemap */,
+				0F92F96228BC93F0DD1C80B8A503EC8E /* Pods-ZQQTiSDK_Example-acknowledgements.markdown */,
+				23FBB429976E371FFAB98DEE6114F98A /* Pods-ZQQTiSDK_Example-acknowledgements.plist */,
+				1385345AD38CA224735704EF4F651085 /* Pods-ZQQTiSDK_Example-dummy.m */,
+				9E66905E6AA5329A45C1C72E8E8D6631 /* Pods-ZQQTiSDK_Example-frameworks.sh */,
+				1CAE58B6ADB1A768101B97409B0A2801 /* Pods-ZQQTiSDK_Example-Info.plist */,
+				6B9C5651B43ECAB9A2D372DE6C6B1465 /* Pods-ZQQTiSDK_Example-umbrella.h */,
+				FEF660121C0EAAC6BAF4844A0E47507F /* Pods-ZQQTiSDK_Example.debug.xcconfig */,
+				3F02EE88FF09B9648B5A36AA2EB799E2 /* Pods-ZQQTiSDK_Example.release.xcconfig */,
+			);
+			name = "Pods-ZQQTiSDK_Example";
+			path = "Target Support Files/Pods-ZQQTiSDK_Example";
+			sourceTree = "<group>";
+		};
+		1D4B5C5DD3AA76CE199AED37CCD65FA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A254AB18BE61375E472F597456A8C531 /* Pods_ZQQTiSDK_Example.framework */,
+				448DF075B6EA439CB3F77D9FD770720A /* Pods-ZQQTiSDK_Tests */,
+				3B494F1357C9007ACA6A976E3A851C02 /* ZQQTiSDK */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F30FDE71662391F499339275CCE2D05 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				799E301E298D00C300C36FDC /* ZQTe.h */,
+				799E301D298D00C300C36FDC /* ZQTe.m */,
+				0B8F6638CF4712ACAACFF40BA2590C7B /* LICENSE */,
+				9CA2564192DECCD3DCAFBA012211873F /* README.md */,
+				E1E752E863ABBED591570EFDEB903419 /* ZQQTiSDK.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		87F504EE56E389ACA538FD4079D8FD76 /* ZQQTiSDK */ = {
+			isa = PBXGroup;
+			children = (
+				FFA5AE18322E16210BB67DF43EE215B0 /* ReplaceMe.m */,
+				2F30FDE71662391F499339275CCE2D05 /* Pod */,
+				9DDBDD1001B6AA80E84DBEB3B06F5023 /* Support Files */,
+			);
+			name = ZQQTiSDK;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		8BFBDC9D96AA49AC545E20F3B812F81C /* Pods-ZQQTiSDK_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				770946812421521D5ACC11F2BB9E78A0 /* Pods-ZQQTiSDK_Tests.modulemap */,
+				8CAD218AA874C861D649C472E7A53686 /* Pods-ZQQTiSDK_Tests-acknowledgements.markdown */,
+				441A540B8FE1D4E17002A7E35D945327 /* Pods-ZQQTiSDK_Tests-acknowledgements.plist */,
+				38AACB4283282610FA691BB956351321 /* Pods-ZQQTiSDK_Tests-dummy.m */,
+				5D08D9BD871A0118E18DB85533E3DB5A /* Pods-ZQQTiSDK_Tests-Info.plist */,
+				7D47283EF7FE853332B7338205C55ACA /* Pods-ZQQTiSDK_Tests-umbrella.h */,
+				EF4F7E47C399B390E5872426FDDED2E6 /* Pods-ZQQTiSDK_Tests.debug.xcconfig */,
+				F133ECD98F220BD9A1CE46D9A4B9DE16 /* Pods-ZQQTiSDK_Tests.release.xcconfig */,
+			);
+			name = "Pods-ZQQTiSDK_Tests";
+			path = "Target Support Files/Pods-ZQQTiSDK_Tests";
+			sourceTree = "<group>";
+		};
+		9DDBDD1001B6AA80E84DBEB3B06F5023 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7167B9DE7E2EE8ECFD52CA7C3B622870 /* ZQQTiSDK.modulemap */,
+				3F941070C7842EAA685C131EE8000A46 /* ZQQTiSDK-dummy.m */,
+				D6FE32A34BE7C7C0A31693AA25C0877C /* ZQQTiSDK-Info.plist */,
+				A3063B1DF0C41E61F319F769C0D2FA48 /* ZQQTiSDK-prefix.pch */,
+				8B64F1228D6F8512F3959A1AC8059D0F /* ZQQTiSDK-umbrella.h */,
+				24B0E4AD035AAB3631096B7198EBC167 /* ZQQTiSDK.debug.xcconfig */,
+				ECBA1788A646CE7C51CD5D9638D821BA /* ZQQTiSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ZQQTiSDK";
+			sourceTree = "<group>";
+		};
+		CEEF76C72F694DA103FC708B8ACF29D1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				170F9D3AC86B8279A560E35F53FB5DF1 /* Pods-ZQQTiSDK_Example */,
+				8BFBDC9D96AA49AC545E20F3B812F81C /* Pods-ZQQTiSDK_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				0BFBF86199B597C0310332E416FF58A3 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				1D4B5C5DD3AA76CE199AED37CCD65FA0 /* Products */,
+				CEEF76C72F694DA103FC708B8ACF29D1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8693F443C9F9F5DE0FC4C41301B85558 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47A8442285F6A973150819D77601576B /* Pods-ZQQTiSDK_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90A60904F6DB12DAC040E82884020FD4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C54D93DFF44EA245CDC8DCCFC2E4BF32 /* Pods-ZQQTiSDK_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0AEC12A6EFA982B19C2AFCFC952FBF3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8296AB97177219515405288328B5486B /* ZQQTiSDK-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6FFDCEBEB62DBA08704BA309852B2202 /* Pods-ZQQTiSDK_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F23733C2DAEA6243CA32A93A51C79CD0 /* Build configuration list for PBXNativeTarget "Pods-ZQQTiSDK_Example" */;
+			buildPhases = (
+				90A60904F6DB12DAC040E82884020FD4 /* Headers */,
+				C4BB63E7BF27BD95988643301239179D /* Sources */,
+				2AB6FDF9DAEE696FFE334682BE11FF5F /* Frameworks */,
+				CBDCF8334C85FEBC79AEB9D4C742B102 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A655256CA7B7DC3B1AEEB2084AE4B9D3 /* PBXTargetDependency */,
+			);
+			name = "Pods-ZQQTiSDK_Example";
+			productName = Pods_ZQQTiSDK_Example;
+			productReference = A254AB18BE61375E472F597456A8C531 /* Pods_ZQQTiSDK_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		96BCF23ACC69911A8AED90F03FD7F89F /* ZQQTiSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21D07032CE1BD7B26ED2DF0312380163 /* Build configuration list for PBXNativeTarget "ZQQTiSDK" */;
+			buildPhases = (
+				A0AEC12A6EFA982B19C2AFCFC952FBF3 /* Headers */,
+				A004FC5F8610A8BE162726F583226E23 /* Sources */,
+				E2BEE7AF5AD5F3A584FE7BC374B3DA0B /* Frameworks */,
+				8FFD613756FE79A472D75D72B9A8EFE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZQQTiSDK;
+			productName = ZQQTiSDK;
+			productReference = 3B494F1357C9007ACA6A976E3A851C02 /* ZQQTiSDK */;
+			productType = "com.apple.product-type.framework";
+		};
+		AE563169E4358C8849149EDEEE5D7172 /* Pods-ZQQTiSDK_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76A806CDB38597A0BE4A2E76F545224B /* Build configuration list for PBXNativeTarget "Pods-ZQQTiSDK_Tests" */;
+			buildPhases = (
+				8693F443C9F9F5DE0FC4C41301B85558 /* Headers */,
+				16D047D449D2C8C023DDB96E1C9AFC34 /* Sources */,
+				ACA35A31DB6A5A3ECEB1ABD1464E4E5B /* Frameworks */,
+				AAAE22898801847F47719D7208C372E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9917BD5193A8371F62C79C7CE192292A /* PBXTargetDependency */,
+			);
+			name = "Pods-ZQQTiSDK_Tests";
+			productName = Pods_ZQQTiSDK_Tests;
+			productReference = 448DF075B6EA439CB3F77D9FD770720A /* Pods-ZQQTiSDK_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 1D4B5C5DD3AA76CE199AED37CCD65FA0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6FFDCEBEB62DBA08704BA309852B2202 /* Pods-ZQQTiSDK_Example */,
+				AE563169E4358C8849149EDEEE5D7172 /* Pods-ZQQTiSDK_Tests */,
+				96BCF23ACC69911A8AED90F03FD7F89F /* ZQQTiSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8FFD613756FE79A472D75D72B9A8EFE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAAE22898801847F47719D7208C372E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBDCF8334C85FEBC79AEB9D4C742B102 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16D047D449D2C8C023DDB96E1C9AFC34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				393456269AAD4FD4C2DF1B2DAF7376C7 /* Pods-ZQQTiSDK_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A004FC5F8610A8BE162726F583226E23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1BADBF3B49CF658C1BA46CC91CB245C /* ReplaceMe.m in Sources */,
+				F3BA59814E4DB118C06BDFDE70680465 /* ZQQTiSDK-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4BB63E7BF27BD95988643301239179D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B7F002BCEFFA8FA78856C4CD1B07360 /* Pods-ZQQTiSDK_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9917BD5193A8371F62C79C7CE192292A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ZQQTiSDK_Example";
+			target = 6FFDCEBEB62DBA08704BA309852B2202 /* Pods-ZQQTiSDK_Example */;
+			targetProxy = 7087C685E71C947633A3A8EFBBC86AA0 /* PBXContainerItemProxy */;
+		};
+		A655256CA7B7DC3B1AEEB2084AE4B9D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZQQTiSDK;
+			platformFilter = ios;
+			target = 96BCF23ACC69911A8AED90F03FD7F89F /* ZQQTiSDK */;
+			targetProxy = D87E25CB8A3501987ABE60B976AA34F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2060F3890A24EE4A5BA5035EA6999165 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF4F7E47C399B390E5872426FDDED2E6 /* Pods-ZQQTiSDK_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZQQTiSDK_Tests/Pods-ZQQTiSDK_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZQQTiSDK_Tests/Pods-ZQQTiSDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		544632D9672682C924641FF5552F622A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECBA1788A646CE7C51CD5D9638D821BA /* ZQQTiSDK.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZQQTiSDK/ZQQTiSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZQQTiSDK/ZQQTiSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ZQQTiSDK/ZQQTiSDK.modulemap";
+				PRODUCT_MODULE_NAME = ZQQTiSDK;
+				PRODUCT_NAME = ZQQTiSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5A4ECFAC85754ACD2CB670CBC113E100 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F133ECD98F220BD9A1CE46D9A4B9DE16 /* Pods-ZQQTiSDK_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZQQTiSDK_Tests/Pods-ZQQTiSDK_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZQQTiSDK_Tests/Pods-ZQQTiSDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B899BB56781CBAE0D183932901B9BC70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F02EE88FF09B9648B5A36AA2EB799E2 /* Pods-ZQQTiSDK_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZQQTiSDK_Example/Pods-ZQQTiSDK_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZQQTiSDK_Example/Pods-ZQQTiSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C44A03590E0944113FCADE188F6FD95C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEF660121C0EAAC6BAF4844A0E47507F /* Pods-ZQQTiSDK_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZQQTiSDK_Example/Pods-ZQQTiSDK_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZQQTiSDK_Example/Pods-ZQQTiSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D50069C439039F3ADB70D4EB0A407307 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24B0E4AD035AAB3631096B7198EBC167 /* ZQQTiSDK.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZQQTiSDK/ZQQTiSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZQQTiSDK/ZQQTiSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ZQQTiSDK/ZQQTiSDK.modulemap";
+				PRODUCT_MODULE_NAME = ZQQTiSDK;
+				PRODUCT_NAME = ZQQTiSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21D07032CE1BD7B26ED2DF0312380163 /* Build configuration list for PBXNativeTarget "ZQQTiSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D50069C439039F3ADB70D4EB0A407307 /* Debug */,
+				544632D9672682C924641FF5552F622A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76A806CDB38597A0BE4A2E76F545224B /* Build configuration list for PBXNativeTarget "Pods-ZQQTiSDK_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2060F3890A24EE4A5BA5035EA6999165 /* Debug */,
+				5A4ECFAC85754ACD2CB670CBC113E100 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F23733C2DAEA6243CA32A93A51C79CD0 /* Build configuration list for PBXNativeTarget "Pods-ZQQTiSDK_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C44A03590E0944113FCADE188F6FD95C /* Debug */,
+				B899BB56781CBAE0D183932901B9BC70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

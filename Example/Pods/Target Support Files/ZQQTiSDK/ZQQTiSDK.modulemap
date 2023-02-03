@@ -1,0 +1,6 @@
+framework module ZQQTiSDK {
+  umbrella header "ZQQTiSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
