@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'ZQQTiSDK_Example' do
+  pod 'ZQQTiSDK', :path => '../'
+
+  target 'ZQQTiSDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
